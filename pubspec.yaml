@@ -16,6 +16,9 @@ dependencies:
   uuid: ^4.4.0
   share_plus: ^7.2.2
   path_provider: ^2.1.2
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
 
 dev_dependencies:
   flutter_test:

@@ -1,16 +1,31 @@
-# expense_tracker
+cat > README.md << 'EOF'
+# Expense Tracker Pro
 
-A new Flutter project.
+A beautiful, fully functional **Flutter Expense Tracker** with:
 
-## Getting Started
+- Add/Edit/Delete expenses
+- Live search & month filtering
+- Interactive pie chart (fl_chart)
+- Dark mode toggle
+- Export to CSV & share
+- Offline-first with Hive DB
+- Modern Material 3 design
 
-This project is a starting point for a Flutter application.
+## Screenshots
+*(Add your own screenshots later in `/screenshots` folder)*
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Responsive: Mobile, Web (Chrome), Desktop
+- Visual spending breakdown
+- Smart search by title/category
+- Monthly summary & filtering
+- Dark/Light mode
+- One-tap CSV export
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Locally
+```bash
+git clone https://github.com/davidmopo/expense_tracker.git
+cd expense_tracker
+flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
+flutter run
